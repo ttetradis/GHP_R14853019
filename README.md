@@ -29,8 +29,24 @@ The following R packages were used:
 
 ## Analysis Steps
 
-The analysis was done in four simple steps:
+The analysis was done in four steps:
 
 1. The dengue dataset was imported into R.
 2. The data was filtered to include only the year 2023.
-3. The values i...
+3. The values for "case_number" were added together
+4. total number of dengue cases for 2023 was calculated
+   
+This repository contains the following files:
+
+analysis.R
+This is the R script used to calculate the total number of dengue cases in 2023.
+README.md
+This file explains the assignment, analysis steps, and final result.
+.gitignore
+This file prevents the raw dataset, dengue_assignment.csv, from being uploaded to GitHub.
+How to Reproduce the Analysis on Mac
+Download or clone this repository.
+Open the folder in RStudio.
+Place dengue_assignment.csv in the same folder as analysis.R.
+Run the script analysis.R.
+The result will show the total number of dengue cases reported in 2023.
