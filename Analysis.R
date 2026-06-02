@@ -1,4 +1,3 @@
-setwd("/Users/ttetradis/Desktop/GHP_R14853019")
 library(readr)
 library(dplyr)
 
